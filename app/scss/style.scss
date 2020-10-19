@@ -2,23 +2,3 @@
 @import "mixins";
 @import "globals";
 
-* {
-    outline: 1px solid red;
-}
-
-.card {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 300px;
-    height: min-content;
-
-    margin: 10px;
-    padding: 5px;
-}
-
-.card-item {
-    margin: 10px;
-}

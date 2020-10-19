@@ -1,0 +1,19 @@
+// Fonts
+$font-stack: 'Roboto', Arial, Helvetica, sans-serif;
+// TODO - Set up fonts map depending on installed fonts used.
+$font-weights: (
+    "thin100": 100,
+    "light": 300,
+    "regular": 400,
+    "medium": 500,
+    "bold": 700,
+    "black": 900
+    );
+$font-size: 1rem; // 16px
+
+
+$line-height: 1.3;
+
+// Colours
+$primary: red;
+$secondary: yellow;
