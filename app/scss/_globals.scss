@@ -19,7 +19,7 @@ body {
     font-family: $font-stack;
     font-size: $font-size;
     // font-weight: map-get($font-weights, 100); // ! NOT WORKING CODE
-    font-weight: 900;
+    // font-weight: 900;
     color: $primary;
     line-height: $line-height;
 }
@@ -29,4 +29,3 @@ a:visited,
 a:hover {
     text-decoration: none;
 }
-
