@@ -83,6 +83,9 @@ a:hover {
 .banner {
   width: 100vw;
   height: 75vh;
+  position: relative;
+  top: 0;
+  left: 0;
 }
 
 .banner__img {
@@ -92,5 +95,64 @@ a:hover {
   background-repeat: no-repeat;
   width: 100%;
   height: 100%;
+  position: absolute;
+}
+
+.banner__tagline {
+  background-color: transparent;
+  position: absolute;
+  color: white;
+  top: 30%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-family: "Dancing Script", cursive;
+  font-weight: 900;
+}
+
+main {
+  background-color: goldenrod;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.card * {
+  outline: none;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card__item {
+  width: 330px;
+  height: min-width;
+  margin: 1rem;
+  padding: 0.5rem;
+  background-color: lightblue;
+}
+
+.card__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=style.css.map */

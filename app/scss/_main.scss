@@ -1,0 +1,29 @@
+main {
+    background-color: goldenrod;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.card * {
+    outline: none;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    &__item {
+        width: 330px;
+        height: min-width;
+        margin: 1rem;
+        padding: 0.5rem;
+        background-color: lightblue;
+    }
+    &__img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
